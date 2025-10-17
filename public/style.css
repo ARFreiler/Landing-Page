@@ -9,5 +9,14 @@ h1 {
 }
 
 p {
+    text-align: center;
     color: #88C0D0;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+  margin: 0 0.5rem;
 }
