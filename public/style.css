@@ -1,6 +1,11 @@
-body {
-    background-color: #2E3440;
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: #2E3440;  */
+  background: linear-gradient(180deg, #2E3440 0%, #3B4252 100%);
+         /* nord4 */
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
@@ -21,9 +26,15 @@ a {
 
 .links {
     text-align: center;
-
-
 }
+
+.container {
+  display: flex;
+  flex-direction: column;        /* stack logo, text, links */
+  justify-content: center;       /* vertical center */
+  align-items: center;           /* horizontal center */
+  height: 100vh;                 /* full viewport height */
+  text-align: center;
 
 /* .links a {
   margin: 0 0.5rem;
